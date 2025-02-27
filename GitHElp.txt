@@ -1,0 +1,15 @@
+Команды на одно устройство
+
+Команды для регистрации ваших данных
+git config --global user.name "alimmaslyanov"
+git config --global user.email "alim.maslyanov2@bk.ru"
+
+
+Команды один раз для проекта
+git init
+git remote add origin https://github.com/alimmaslyanov/OOP-52-2.git
+
+
+Часто используемые команды
+git status
+git add .
