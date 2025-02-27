@@ -13,3 +13,5 @@ git remote add origin https://github.com/alimmaslyanov/OOP-52-2.git
 Часто используемые команды
 git status
 git add .
+git commit -m "LS: Lesson_1 added learn python oop"
+git push origin main
