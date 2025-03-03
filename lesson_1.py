@@ -13,5 +13,5 @@ class car:
         return print(f"{self.model} start action")
 
 # Объект класса
-bmw = car("BMW", 2020, "red")
-bmw.action()
+# bmw = car("BMW", 2020, "red")
+# bmw.action()
