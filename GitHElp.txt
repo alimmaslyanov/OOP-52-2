@@ -15,3 +15,38 @@ git status
 git add .
 git commit -m "LS: Lesson_1 added learn python oop"
 git push origin main
+
+Команда для удаления директории и все что она содержит
+
+git rm -r --cached .idea
+---------------------------------------------------------------
+
+
+Команда для клона репозитория
+
+git clone https://github.com/arzy-52-2/oop-52-2
+---------------------------------------------------------------
+
+Базовые команды линукса терминала
+
+ls      | список файлов и директории
+ls -a   |  список файлов и директории включая скрытые
+
+cd      |  переход в директорию
+cd ../  |  переход в директорию выше
+cd ~    | переход в домашнюю директорию
+
+mkdir name_dir    | создание директории
+touch name_file   | создание файла
+
+rm -r name_dir   | удаление директории
+rm name_file     | удаление файла
+
+
+clear    | очистка терминала
+
+echo ".venv/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".idea/" >> .gitignore
+
