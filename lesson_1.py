@@ -1,6 +1,6 @@
 
 
-class car:
+class Car:
     # Конструктор класса
     def __init__(self, model, year, color):
         # Атрибуты класса
@@ -13,5 +13,5 @@ class car:
         return print(f"{self.model} start action")
 
 # Объект класса
-# bmw = car("BMW", 2020, "red")
+# bmw = Car("BMW", 2020, "red")
 # bmw.action()
