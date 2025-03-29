@@ -50,3 +50,6 @@ echo "venv/" >> .gitignore
 echo "__pycache__/" >> .gitignore
 echo ".idea/" >> .gitignore
 
+git add oop.py .gitignore
+git commit -m "Added oop.py and .gitignore"
+git push origin main
